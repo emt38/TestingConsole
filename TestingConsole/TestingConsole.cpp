@@ -19,9 +19,11 @@ bool perfecto(int n)
 	
 	return (counter == n);
 }
+//calcula si el numero es primo 
 bool Numero_Primo(int numero)
 {
-
+    if(numero > 2 )
+    {
 	for (int x = 2; x < numero; x++)
 	{
 		if (numero % x == 0)
@@ -29,7 +31,15 @@ bool Numero_Primo(int numero)
 			return false;
 		}
 	}
-	return true;
+        return true;
+    }
+    
+    if(numero == 2)
+    {
+    	return true;
+    }
+    else return false;
+   
 }
 
 int main(array<System::String ^> ^args)
