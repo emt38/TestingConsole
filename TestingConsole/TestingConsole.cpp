@@ -45,5 +45,9 @@ bool Numero_Primo(int numero)
 int main(array<System::String ^> ^args)
 {
     Console::WriteLine("Hello World");
+    
+    if(perfecto(6))
+    	Console::WriteLine("Mi funcion funciona bien XD");
+    
     return 0;
 }
