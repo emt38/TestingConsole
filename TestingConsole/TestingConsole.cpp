@@ -54,6 +54,6 @@ int main(array<System::String ^> ^args)
 //desde visual studio agrege esto solo ignora lo que agrege vs
 	Console::ReadLine();
 
-     
+      
     return 0;
 }
