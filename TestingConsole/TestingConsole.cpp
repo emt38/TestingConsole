@@ -55,5 +55,5 @@ int main(array<System::String ^> ^args)
 	Console::ReadLine();
 
       
-    return 0;
+    return 1;
 }
