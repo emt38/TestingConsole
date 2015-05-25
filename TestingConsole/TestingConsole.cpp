@@ -4,9 +4,21 @@
 
 using namespace System;
 
+bool perfecto(int n)
+{
+	int counter = 0;
+	
+	for(int x = 1; x < n; x++)
+	{
+		if(n % x == 0)
+		counter += x;
+	}
+	
+	return (counter == n);
+}
+
 int main(array<System::String ^> ^args)
 {
     Console::WriteLine("Hello World");
-	Console::ReadLine();
     return 0;
 }
