@@ -51,7 +51,7 @@ int main(array<System::String ^> ^args)
     	
     if(Numero_Primo(7))
        Console::WriteLine("Tambien la mia Lol");
-
+//desde visual studio agrege esto solo ignora lo que agrege vs
 	Console::ReadLine();
 
      
