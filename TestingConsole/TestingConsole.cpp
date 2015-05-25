@@ -52,6 +52,8 @@ int main(array<System::String ^> ^args)
     if(Numero_Primo(7))
        Console::WriteLine("Tambien la mia Lol");
 
+	Console::ReadLine();
+
     
     return 0;
 }
