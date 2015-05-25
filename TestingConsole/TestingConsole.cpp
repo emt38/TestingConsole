@@ -19,6 +19,18 @@ bool perfecto(int n)
 	
 	return (counter == n);
 }
+bool Numero_Primo(int numero)
+{
+
+	for (int x = 2; x < numero; x++)
+	{
+		if (numero % x == 0)
+		{
+			return false;
+		}
+	}
+	return true;
+}
 
 int main(array<System::String ^> ^args)
 {
