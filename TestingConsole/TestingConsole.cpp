@@ -48,6 +48,10 @@ int main(array<System::String ^> ^args)
     
     if(perfecto(6))
     	Console::WriteLine("Mi funcion funciona bien XD");
+    	
+    if(Numero_Primo(7))
+       Console::WriteLine("Tambien la mia Lol");
+
     
     return 0;
 }
